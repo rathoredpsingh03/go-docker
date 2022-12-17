@@ -16,7 +16,7 @@
 		"environment": [],
 		"cpu": 1024,
 		"memory": 256,
-		"image": "505588182362.dkr.ecr.ap-south-1.amazonaws.com/geodetectionservice:v_%BUILD_NUMBER%",
+		"image": "505588182362.dkr.ecr.ap-south-1.amazonaws.com/geodetectionservice:v_%BUILD_NUMBER%"
 
 
 	}]
