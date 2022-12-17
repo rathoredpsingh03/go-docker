@@ -15,8 +15,7 @@
 		"name": "geo",
 		"environment": [],
 		"cpu": 1024,
-		"memory": 256,
-		"image": "nginx"
+		"memory": 256
 
 
 	}]
