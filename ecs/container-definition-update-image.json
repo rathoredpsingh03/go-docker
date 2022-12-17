@@ -1,28 +1,24 @@
-{  
-   "memory":"1024",
-   "networkMode":"awsvpc",
-   "cpu":"1024",
-   "family":"geo",
-   "requiresCompatibilities": [
-      "EC2"
-   ], 
-   "containerDefinitions":[  
-      {  
-         "portMappings":[  
-            {  
-               "hostPort":9090,
-               "containerPort":80,
-               "protocol":"tcp"
-            }
-         ],
-         "essential":true,
-         "name":"geo",
-         "environment":[],
-         "cpu": 1024,
-         "memory": 2048,
-         "image":"nginx",
-            }
-         }
-      }
-   ]
+{
+	"memory": "1024",
+	"networkMode": "awsvpc",
+	"cpu": "1024",
+	"family": "geo",
+	"requiresCompatibilities": [
+		"EC2"
+	],
+	"containerDefinitions": [{
+		"portMappings": [{
+			"hostPort": 9090,
+			"containerPort": 80,
+			"protocol": "tcp"
+		}],
+		"essential": true,
+		"name": "geo",
+		"environment": [],
+		"cpu": 1024,
+		"memory": 2048,
+		"image": "nginx"
+
+
+	}]
 }
